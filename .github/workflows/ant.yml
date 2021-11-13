@@ -23,6 +23,6 @@ jobs:
         distribution: 'adopt'
     - name: Build with Ant
       run: | 
-        echo &PATH
+        echo $PATH
         java -version
         ant -noinput -buildfile build.xml
