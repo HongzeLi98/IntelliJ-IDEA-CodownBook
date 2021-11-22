@@ -25,5 +25,5 @@ jobs:
       run: | 
         echo $PATH
         java -version
-        java -cp java CDBookListWindow
+        ant -noinput -buildfile build.xml
         echo Test Completed!
