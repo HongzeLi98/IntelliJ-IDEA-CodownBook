@@ -25,5 +25,5 @@ jobs:
       run: | 
         echo $PATH
         java -version
-        ant -noinput -buildfile build.xml
+        ant -noinput -buildfile IntelliJ-IDEA-CodownBook/CodownBook/.idea/misc.xml
         echo Test Completed!
